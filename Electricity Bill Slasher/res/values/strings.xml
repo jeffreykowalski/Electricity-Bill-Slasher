@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Electricity Bill Slasher</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Electricity Bill Slasher</string>
+
+    <!--Other string resources also defined in this file… -->  
+    <string name="feedbacktype1">Xbox 360</string>  
+    <string name="feedbacktype2">Playstation 3</string>  
+    <string name="feedbacktype3">Nintendo Wii</string>  
+    <string name="feedbacktype4">Microwave</string>
+    <string name="feedbacktype">Common Electronic Devices</string>
+    <string name="strDay">Day</string>
+    <string name="strWeek">Week (7 days)</string>
+    <string name="strMonth">Month (30 days)</string>
+    <string name="strYear">Year (365 days)</string>
+    <string name="strResults">Electricity Cost Results</string>
+    <string name="strWatts">Watts Used</string>
+    <string name="strHours">Hours Used</string>
+    <string name="strCalculate">Calculate</string>
+    <string name="strCost">Cost per kWh</string>  
+
+</resources>

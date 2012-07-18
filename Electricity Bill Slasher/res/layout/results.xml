@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+        <TableRow>
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_column="1"
+		    android:layout_gravity="center"
+		    android:text="@string/strResults"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</TableRow>
+    
+    <TableRow>
+		<TextView
+	    	android:text="@string/strDay"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+		<TextView
+	    	android:text=""
+	    	android:id="@+id/rowDay"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+	</TableRow>
+	
+        <TableRow>
+		<TextView
+		    
+	    	android:text="@string/strWeek"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+		<TextView
+		    android:id="@+id/rowWeek"
+	    	android:text=""
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+	</TableRow>
+	
+            <TableRow>
+		<TextView
+		    
+	    	android:text="@string/strMonth"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+		<TextView
+		    android:id="@+id/rowMonth"
+	    	android:text=""
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+	</TableRow>
+	
+                <TableRow>
+		<TextView
+		    
+	    	android:text="@string/strYear"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+		<TextView
+		    android:id="@+id/rowYear"
+	    	android:text=""
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1" 
+	    	android:textAppearance="?android:attr/textAppearanceLarge"/>
+	</TableRow>
+
+</TableLayout>

@@ -1,0 +1,100 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+        <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+            
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/feedbacktype"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        <Spinner  
+    android:id="@+id/SpinnerFeedbackType"  
+    android:layout_height="wrap_content"  
+    android:prompt="@string/feedbacktype"  
+    android:layout_width="fill_parent"  
+    android:entries="@array/feedbacktypelist">  
+		</Spinner>
+
+    </TableRow>
+    
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/strWatts"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtWatts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp" 
+            android:inputType="number"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/strHours"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp" 
+            android:inputType="number"/>
+
+    </TableRow>
+    
+    
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/strCost"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/txtCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp" 
+            android:inputType="numberDecimal"/>
+
+    </TableRow>
+
+    
+        <TableRow>
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="CalculateResults" 
+            android:text="@string/strCalculate" />
+        
+</TableRow>
+
+
+</TableLayout>
